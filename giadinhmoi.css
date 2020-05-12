@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+.menu{
+	width: 100%;
+	height: 35px;
+	background: #bb3128;
+
+}
+.menu >ul{
+	width: 80%;
+	height: 35px;
+	margin: 0 150px;
+	position: relative;
+	z-index: 1;
+
+}
+.menu >ul >li{
+	list-style: none;
+	float: left;
+	
+}
+a.fa.fa-home {
+    line-height: 35px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: segoe ui;
+	line-height: 35px;
+	padding: 0px 15px;
+	display: block;
+	font-size: 12px;
+
+}
+.menu >ul >li:hover,.fa{
+	background: #96261e;
+
+}
+.menu >ul>li ul{
+	position: absolute;
+	width: 200px;
+	background: #bb3128;
+	border-top: 1px solid #96261e;
+	display: none;
+}
+.menu >ul>li ul li{
+	list-style: none;
+}
+.menu >ul>li ul li:hover{
+	background: #96261e;
+	transition: 0.4s;
+}
+.menu >ul >li:hover ul{
+	display: block;
+
+}
+.top-img{
+	margin: 15px 0;
+}
+img.top-img,.content{
+	width: 80%;
+	margin: 0 150px;
+}
+div.content-left{
+	width: 65%;
+
+}
+.content-top{
+	margin-bottom: 10px;
+}
+.content-top h5{
+
+}
+.content-top h5 a.a-top{
+	color: black;
+	text-transform: none;
+	font-size: 25px;
+	padding: 0px;
+}
+.content-top h5 a:hover{
+	color: #bb3128;
+}
+.content-center,.content2{
+	display: flex;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.content-center .trai{
+	width: 30%;
+	margin-right: 2%;
+}
+.content-center .phai{
+	width: 69%;
+}
+.p1{
+	margin-bottom: 5px;
+}
+p {
+    font-size: 18px;
+}
+.content2 .left2,.content2 .center2{
+	width: 32%;
+	margin-right: 2%;
+}
+.content2 .left2{
+	width: 32%;
+}
